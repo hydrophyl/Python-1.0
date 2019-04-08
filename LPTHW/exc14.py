@@ -36,4 +36,5 @@ live = input(prompt)
 print("How old are you?")
 old = input(prompt)
 
-print(f"")
+print(f"""Alright you're {user_name} and your girlfriend is {girlfriend}.
+You are living in {live} and you're {old} years old. Nice!!!""")
