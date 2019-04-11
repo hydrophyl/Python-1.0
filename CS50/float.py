@@ -5,4 +5,4 @@ y = get_float("y: ")
 
 z = x/y
 
-print(f"x/y: {z:.50f}")
+print(f"x/y: {z:.5f}")
