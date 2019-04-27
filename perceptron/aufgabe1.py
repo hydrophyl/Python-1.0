@@ -3,7 +3,7 @@
 from sklearn import tree
 
 #ANCHOR input dataset:
-#Definition 
+#Definition
 temp = []
 nieder = []
 
@@ -21,16 +21,16 @@ train_data = [list(i) for i in zip(temp,nieder)]
 #Output lists input
 train_output = []
 for i in range(n):
-    eingabe = int(input('ist schoenes Wetter? 1 wenn ja, 0 wenn nein: '))
+    eingabe = int(input('ist gutes Wetter? 1 wenn ja, 0 wenn nein: '))
     train_output.append(eingabe)
 #1 is 'schoen'  0  is 'schlecht'
 #ANCHOR Train classifier
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(train_data,train_output)
 
-print('Prognose: [0]-Schlechtes Wetter | [1]-Schoenes Wetter')
+print('Prognose: [0]-Schlechtes Wetter | [1]-Gutes Wetter')
 #TODO test data input
-#Counter i 
+#Counter i
 i = 0
 temperatur_eingabe = []
 niederschlag_eingabe = []
@@ -47,5 +47,4 @@ while(i < 5):
 
 print("Data \t Temperatur \t Niederschlag \t Prognose")
 for data_size in range(4):
-    print(f"{data_size} \t {temperatur_eingabe[data_size]} \t\t {niederschlag_eingabe[data_size]} \t {prognose[data_size]}")    
-
+    print(f"{data_size} \t {temperatur_eingabe[data_size]} \t\t {niederschlag_eingabe[data_size]} \t\t {prognose[data_size]}")

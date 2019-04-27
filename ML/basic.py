@@ -11,7 +11,6 @@ plt.plot(X,y,'ro')
 plt.axis([140,190,45,75])
 plt.xlabel('Height (cm)')
 plt.ylabel('Weight (kg)')
-plt.show()
 
 # Building Xbar 
 one = np.ones(X.shape[0], 1)
