@@ -17,8 +17,6 @@ output_path = cv2.imread('cap_00000001.bmp')
 #tar_img = cv2.imread(target_path).astype(np.int8)
 #difference = out_img - tar_img
 
-
-
 difference = cv2.subtract(target_path,output_path)
 cv2.imshow('Target',target_path)
 cv2.imshow('Output',output_path)
