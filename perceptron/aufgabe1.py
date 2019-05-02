@@ -46,5 +46,5 @@ while(i < 5):
     i = i + 1
 
 print("Data \t Temperatur \t Niederschlag \t Prognose")
-for data_size in range(4):
+for data_size in range(5):
     print(f"{data_size} \t {temperatur_eingabe[data_size]} \t\t {niederschlag_eingabe[data_size]} \t\t {prognose[data_size]}")
