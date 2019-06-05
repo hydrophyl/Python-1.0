@@ -1,4 +1,4 @@
-import csv  
+import csv
 
 with open('pokemon_data.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
