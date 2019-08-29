@@ -1,5 +1,5 @@
 #define numbers types of people
-types_of_people = 10
+types_of_people = 2
 #define x as string f"There are {types_of_people} ....
 x = f"There are {types_of_people} types of people."
 
@@ -23,6 +23,6 @@ print(joke_evaluation.format(hilarious))
 
 w = "This is the left side of..."
 e = "a string with a right side."
-#combine two string with + 
+#combine two string with +
 print(w+e)
 print(0)
